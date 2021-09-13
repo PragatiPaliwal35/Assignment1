@@ -1,0 +1,38 @@
+ Create a class Student with following attributes
+   
+   Student
+ =============
+   rollNo int
+   studentFirstName String
+   studentLastName  String
+   studentAge int
+ 
+ Override toString(),equals(),hashCode() without using tool.
+
+//toString Method
+class Student{  
+ int rollno;  
+ String firstname;  
+ String lastname; 
+ int age;
+
+  
+ Student(int rollno, String firstname ,String lastname, int age){  
+ this.rollno=rollno;  
+ this.firstname=FirstName;  
+ this.lastname=LastName; 
+ this.age=Age;
+ }  
+   
+ public String toString()
+ {
+     //overriding the toString() method  
+  return rollno+" "+fisrtname+" "+lastname+" "+age;  
+ }  
+ public static void main(String args[]){  
+   Student s1=new Student(101,"Pragati","Paliwal", 23); 
+   System.out.println(s1);//compiler writes here s1.toString() 
+   Student s2=new Student(102,"Ravi","patel", 34);  
+   System.out.println(s2);//compiler writes here s2.toString()  
+ }  
+}  
