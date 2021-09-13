@@ -10,7 +10,7 @@
  Override toString(),equals(),hashCode() without using tool.
 
 //toString Method
-class Student{  
+public class Student{  
  int rollno;  
  String firstname;  
  String lastname; 
